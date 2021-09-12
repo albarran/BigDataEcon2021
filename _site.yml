@@ -4,13 +4,21 @@ output_dir: "."
 
 output:
   html_document:
-    theme: readable # specifies the theme
+    theme:  minima # readable # specifies the theme
 
 navbar:
   title: "'Big Data' para Economía (UA)"
   left:
     - text: "Introducción"
       href: index.html
+    - text: "Otro con submenus"
+      menu:
+        - text: "Create a Project"
+          href: project.html
+        - text: "Set Build Options"
+          href: build.html
+        - text: "Create a _site.yml"
+          href: create_yml.html
     - text: "Contenidos"
       href: Contenidos.html
 #    - text: "Otro con submenus"
