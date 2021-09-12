@@ -7,38 +7,12 @@ classoption: twocolumn
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Datos
-
-
-* En las clases utilizaremos [este conjunto de datos](https://drive.google.com/file/d/1_oeCFuxeu_11qFuBGgI6YhfqfYcMDT7W/view?usp=sharing) 
-
-  <!-- (https://github.com/albarran/CursoBigData/tree/master/data) -->
-
-  - descargad este fichero comprimido .zip
-  - descomprimid todo el contenido en un subdirectorio llamado **data** de vuestro directorio de trabajo para poder usarlos en el futuro
-
-<br>
-
-***
-
-## Evaluación y Proyecto Final
-
-* Información sobre la evaluación el proyecto final [aquí](Info01.html)
-
-* Ejemplo de preguntas tipo test para el examen, [aquí](https://www.dropbox.com/s/37hjc8wm8ufma03/ExamTest.pdf?dl=0)
-
-* Ejemplo de preguntas para el examen a desarrollar (brevemente), [aquí](https://www.dropbox.com/s/urfj3jbq7x4wx8g/ExamPreg.pdf?dl=0)
-
-<br>
-
-***
-
 :::: {style="display: flex;"}
 
 ::: {}
 
 ## Semana 1  {.columns-2}
-(14-Sept. a 18-Sept.)
+(13-Sept. a 19-Sept.)
 
   * [Introducción](0Intro.html)
   * [Tema 01 - Introducción a R y a RStudio](Tema01.html)
@@ -49,6 +23,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ::: {}
 
+<!--
 ## Semana 2
 (21-Sept. a 25-Sept.)
 
@@ -58,23 +33,30 @@ knitr::opts_chunk$set(echo = TRUE)
   * Entregar [aquí](https://docs.google.com/forms/d/e/1FAIpQLScxZ3PuU3y58buOupBmtpNhoIprMKgTydX4wH_WdontaEo9Mg/viewform) certificado del curso de Datacamp
     - Fecha:  vie. 25-Sept. 23:55
 
+-->
+
 <br>
+
 
 :::
 
 ::: {}
 
+<!--
 ## Semana 3
 (28-Sept. a 2-Oct.)
 
+
   * [Práctica 02 - Visualización de Datos](Pract02.html)
-  
+-->
+
 <br>
 
 :::
 
 ::::
 
+<!--
 
 :::: {style="display: flex;"}
 
@@ -236,3 +218,5 @@ knitr::opts_chunk$set(echo = TRUE)
 ::: 
 
 ::::
+
+-->

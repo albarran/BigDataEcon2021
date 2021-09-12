@@ -13,6 +13,8 @@ navbar:
       href: index.html
     - text: "Evaluación"
       href: Evaluacion.html
+    - text: "Datos"
+      href: Datos.html
     - text: "Contenidos"
       href: Contenidos.html
 #    - text: "Otro con submenus"

@@ -56,7 +56,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - El ordenador deberá tener instalado los programas de software (totalmente gratuitos):
 
-   1. el lenguaje de programación [R](https://cran.r-project.org/), con opciones para vuestro sistema operativo
+   1. el lenguaje de programación [R](https://cran.r-project.org/), con opciones de descarga para vuestro sistema operativo
    
    2. el interfaz-editor para R llamado [RStudio](https://www.rstudio.com/)
 
