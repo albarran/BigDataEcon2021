@@ -1,6 +1,6 @@
 ---
 title: "Técnicas para 'Big Data' en Economía"
-subtitle: "Universidad de Alicante, Otoño 2021-2022"
+subtitle: "Universidad de Alicante, Curso 2021-2022 (Primer cuatrimestre)"
 output: html_document
 ---
 
@@ -28,6 +28,24 @@ knitr::opts_chunk$set(echo = TRUE)
 
 * También podéis usar UACloud
 
+# Objetivos
+
+- Aprender a **extraer información** de los datos, especialmente datos masivos ("big data")
+
+- Enfoque práctico: aprenderemos técnicas y cómo aplicarlas para posteriormente usar la información en crear valor
+
+- Tres Componentes: 
+
+    1. Nociones de Programación
+    
+    2. Obtención y Procesamiento de Datos
+    
+    3. Modelos de Aprendizaje Estadístico
+
+-   Más detalles a lo largo del curso y en 
+<!-- para **Economía** -->
+[la ficha de la asignatura](https://cvnet.cpd.ua.es/Guia-Docente/GuiaDocente/Index?wcodasi=35047&scaca=2021-22)
+
 
 # Requisitos
 
@@ -50,48 +68,3 @@ knitr::opts_chunk$set(echo = TRUE)
 
    <!-- +   Instrucciones en anuncio UACloud  -->
     
-# Objetivos
-
-- Aprender a **extraer información** de los datos, especialmente datos masivos ("big data")
-
-- Tres Componentes: 
-
-    1. Nociones de Programación
-    
-    2. Obtención y Procesamiento de Datos
-    
-    3. Modelos de Aprendizaje Estadístico
-
--   Más detalles a lo largo del curso y en 
-<!-- para **Economía** -->
-[la ficha de la asignatura](https://cvnet.cpd.ua.es/Guia-Docente/GuiaDocente/Index?wcodasi=35047&scaca=2021-22)
-
-<!--
--   Más detalles a lo largo del curso y en la ficha de la asignatura, [para **Economía** ](https://cvnet.cpd.ua.es/Guia-Docente/GuiaDocente/Index?wcodasi=35047&scaca=2020-21) o [para **ADE**](https://cvnet.cpd.ua.es/Guia-Docente/GuiaDocente/Index?wcodasi=22036&scaca=2020-21)
--->
-
-# Evaluación 
-
-## Continua:
-
-  * Ejercicios teórico-prácticos durante el periodo de clases (30%)
-
-      - preguntas y pequeñas prácticas en clase
-    
-      - ejercicios (más largos) a entregar
-
-  * Trabajo empírico final (45%)
-
-  * Examen final (25%)
-
-  * Requisito: asistir al menos a un 80% de las clases.
-
-
-## No Continua:
-
-  * Trabajo empírico final (50%)
-
-  * Examen final (50%)
-
-
-
