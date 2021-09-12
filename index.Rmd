@@ -18,11 +18,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 * Tutorias:
 
-    + Lunes de 11 a 13h
+   + Lunes de 11 a 13h
 
-    + Jueves de 16 a 18h
+   + Jueves de 16 a 18h
 
-    + Viernes de 11 a 13h
+   + Viernes de 11 a 13h
 
 (solicitada previamente con al menos 24 horas de antelación, por UACloud o email)
 
@@ -31,8 +31,27 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Requisitos
 
--   Para el seguimiento habitual de las clases y para la realización de ejercicios, prácticas, etc. es **imprescindible** un ordenador con R y RStudio instalados.
+- Para el seguimiento habitual de las clases y para la realización de ejercicios, prácticas, etc. es **altísimamente recomendable** que cada estudiante trabaje en clase con su propio ordenador de forma habitual
+   
+   * Si vuestro ordenador tienen una duración de la bateria limitada, sería recomendable el uso de regletas dado que los enchufes son escasos 
+   * La conserjería del aulario dispone de regletas; pero considerad traer alguna de casa.
 
+- El ordenador deberá tener instalado los programas de software (totalmente gratuitos):
+
+   1. el lenguaje de programación [R](https://cran.r-project.org/), con opciones para vuestro sistema operativo
+   
+   2. el interfaz-editor para R llamado [RStudio](https://www.rstudio.com/)
+
+   * Debéis instalar primero la última versión de R para vuestro sistema operativo y, a continuación, desde [aquí](https://www.rstudio.com/products/rstudio/download/) elegir la opción "Free" de RStudio para vuestro sistema.
+
+   * Nota: existe unna alternativa [online](https://rstudio.cloud/)
+
+-   Más adelante (dependiendo del tiempo e intereses de los alumnos) se considerará software adicional
+
+   <!-- +   Instrucciones en anuncio UACloud  -->
+    
+
+    
 
 - Tres Componentes: 
 
@@ -75,63 +94,3 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 
-<!--
-## UAB, 16-18 June, 2021
-
-### [Pedro Albarrán](https://sites.google.com/site/pedroalbarran) (Universidad de Alicante)
-
-
-# Syllabus
-
-* [pdf](Syllabus_CausalInference_UAB.pdf)
-
- 
-# Unit 1
-
-   * [Slides](Unit1.html)
-   
-   * [NSW data](https://github.com/albarran/TopicsCausalInference/raw/main/data/nsw.dta)
-   
-   * [Stata code](https://github.com/albarran/TopicsCausalInference/blob/main/code/01nsw.do)
-   
-   * [R code](https://github.com/albarran/TopicsCausalInference/blob/main/code/01nswl.R)
-   
-   * Python:
-      * [Jupyter Notebook](https://github.com/albarran/TopicsCausalInference/blob/main/code/01nsw.ipynb)
-      * [Jupyter Notebook in Google Colab](https://colab.research.google.com/drive/1RvsDZt3AoOhjKwNchhzD1WUERL4oGyft?usp=sharing)
-   
-# Unit 2
-
-   * [Slides](Unit2.html)
-   
-   * [Stata code](https://github.com/albarran/TopicsCausalInference/blob/main/code/collider_discrimination.do)
-   
-   * [R code](https://github.com/albarran/TopicsCausalInference/blob/main/code/collider_discrimination.R)
-   
-   * [Jupyter code](https://github.com/albarran/TopicsCausalInference/blob/main/code/collider_discrimination.py)
-
-# Unit 3
-
-   * [Slides](Unit3.html)
-
-   * [CPS data](https://github.com/albarran/TopicsCausalInference/raw/main/data/cps.dta)
-   
-   * [Stata code](https://github.com/albarran/TopicsCausalInference/blob/main/code/unit3.do)
-   
-   * [R code](https://github.com/albarran/TopicsCausalInference/blob/main/code/unit3.R)
-   
-
-# Unit 4
-
-   * [Slides](Unit4.html)
-
-# Unit 5
-
-   * [Slides](Unit5.html)
-   
-   
-   * [Growth Example](growth.html)
-
-   * [Causal Trees](CT.html)
-   
--->
