@@ -1,0 +1,238 @@
+---
+title: "Contenidos"
+classoption: twocolumn
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Datos
+
+
+* En las clases utilizaremos [este conjunto de datos](https://drive.google.com/file/d/1_oeCFuxeu_11qFuBGgI6YhfqfYcMDT7W/view?usp=sharing) 
+
+  <!-- (https://github.com/albarran/CursoBigData/tree/master/data) -->
+
+  - descargad este fichero comprimido .zip
+  - descomprimid todo el contenido en un subdirectorio llamado **data** de vuestro directorio de trabajo para poder usarlos en el futuro
+
+<br>
+
+***
+
+## Evaluación y Proyecto Final
+
+* Información sobre la evaluación el proyecto final [aquí](Info01.html)
+
+* Ejemplo de preguntas tipo test para el examen, [aquí](https://www.dropbox.com/s/37hjc8wm8ufma03/ExamTest.pdf?dl=0)
+
+* Ejemplo de preguntas para el examen a desarrollar (brevemente), [aquí](https://www.dropbox.com/s/urfj3jbq7x4wx8g/ExamPreg.pdf?dl=0)
+
+<br>
+
+***
+
+:::: {style="display: flex;"}
+
+::: {}
+
+## Semana 1  {.columns-2}
+(14-Sept. a 18-Sept.)
+
+  * [Introducción](0Intro.html)
+  * [Tema 01 - Introducción a R y a RStudio](Tema01.html)
+
+<br>
+
+:::
+
+::: {}
+
+## Semana 2
+(21-Sept. a 25-Sept.)
+
+
+  * [Tema 02 - Más R](Tema02.html) 
+  * [Práctica 01 - Introducción a RMarkdown](Pract01.html)
+  * Entregar [aquí](https://docs.google.com/forms/d/e/1FAIpQLScxZ3PuU3y58buOupBmtpNhoIprMKgTydX4wH_WdontaEo9Mg/viewform) certificado del curso de Datacamp
+    - Fecha:  vie. 25-Sept. 23:55
+
+<br>
+
+:::
+
+::: {}
+
+## Semana 3
+(28-Sept. a 2-Oct.)
+
+  * [Práctica 02 - Visualización de Datos](Pract02.html)
+  
+<br>
+
+:::
+
+::::
+
+
+:::: {style="display: flex;"}
+
+::: {}
+## Semana 4
+(5-Oct. a 8-Oct.)
+
+ * [Tema 03 - Manipulación de Datos](Tema03sl.html)
+ * [Ejercicio 01 sobre R](Ejerc01.html)
+ * [Ejercicio 02 sobre R Markdown](Ejerc02.html)
+ 
+ * Los ejercicios se deben entregar el lunes 19 de octubre
+
+<br>
+
+:::
+
+::: {}
+## Semana 5
+(12-Oct. a 16-Oct.)
+
+ * [Tema 03 - Mini-Práctica](PregT03.Ejerc.html)
+ * [Ejercicio 03 sobre Visualización de Datos](Ejerc03.html)
+      + Entregar el lunes 26 de octubre (Economía) / 3 de noviembre (ADE)
+
+<br>
+
+:::
+
+::: {}
+## Semana 6
+(19-Oct. a 24-Oct.)
+
+ * [Tema 04 - Manipulación de Datos Relaciones](Tema04sl.html)
+ * [Práctica 03 - Análisis Exploratorio de Datos](Pract03.html)
+
+<br>
+
+:::
+
+::::
+
+
+:::: {style="display: flex;"}
+
+::: {}
+## Semana 7
+(26-Oct. a 31-Oct.)
+
+  * [Práctica 04 - Web scraping](Pract04.html)
+      + Entrega (apartado 2)- ECO: 9 de Noviembre
+      + Entrega (apartado 2)- ADE: 23 de Noviembre
+
+::: 
+
+
+::: {}
+
+## Semana 8
+(2-Nov. a 6-Nov.)
+
+  * [Tema 05 - Datos Ordenados](Tema05sl.html)
+  * [Ejercicio del Tema 05](EjercT05.html)
+  
+  * [Tema 06A - Funciones](Tema06Asl.html)
+  * [Ejercicio del Tema 06A](EjercT06A.html)
+  
+::: 
+
+::: {}
+
+## Semana 9
+(9-Nov. a 13-Nov.)
+
+  * [Tema 06B - Bucles](Tema06Bsl.html)
+  * [Ejercicio del Tema 06B](EjercT06B.html)
+  
+::: 
+
+::::
+
+
+:::: {style="display: flex;"}
+
+::: {}
+## Semana 10
+(16-Nov. a 20-Nov.)
+
+  * [Tema 07 - Fundamentos estadísticos](Tema07sl.html)
+  * [Ejercicio del Tema 07](EjercT07.html)
+      + Entrega ECO: 24-nov.
+      + Entrega ADE: 4-dic.
+  
+::: 
+
+
+::: {}
+
+## Semana 11
+(23-Nov. a 27-Nov.)
+
+  * [Tema 08 - Aprendizaje estadístico](Tema08sl.html)
+  
+  * [Tema 09 - Regresión Lineal](Tema09sl.html)
+
+::: 
+
+
+::: {}
+
+## Semana 12
+(30-Nov. a 04-Dic.)
+
+  * [Tema 10 - Regresión Logística](Tema10sl.html)
+  * [Tema 11 - Selección y regularización](Tema11sl.html)
+
+  * [Practica 05A - Proceso de Modelización"](Pract05A.html) 
+
+
+::: 
+
+::::
+
+
+:::: {style="display: flex;"}
+
+::: {}
+## Semana 13
+(07-Dic. a 11-Dic.)
+
+  * [Practica 05B - "Tidymodels"](Pract05B.html) 
+
+::: 
+
+
+::: {}
+
+## Semana 14
+(14-Dic. a 18-Dic.)
+
+  * [Tema 12 - kNN](Tema12sl.html)
+  * [Tema 13 - Métodos de árboles](Tema13sl.html)
+
+  * [Tema 14 - Apendizaje no supervisado](Tema14sl.html)
+
+
+
+::: 
+
+
+::: {}
+
+## Semana 15
+(21-Dic. a 23-Dic.)
+
+  * [Ejemplo de Trabajo](Proyect01.html)
+
+
+::: 
+
+::::
