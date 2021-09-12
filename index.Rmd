@@ -50,12 +50,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
    <!-- +   Instrucciones en anuncio UACloud  -->
     
+# Objetivos
 
-    
+- Aprender a **extraer información** de los datos, especialmente datos masivos ("big data")
 
 - Tres Componentes: 
 
-    1. Programación
+    1. Nociones de Programación
     
     2. Obtención y Procesamiento de Datos
     

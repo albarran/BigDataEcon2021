@@ -4,7 +4,7 @@ output_dir: "."
 
 output:
   html_document:
-    theme:  minima # readable # specifies the theme
+    theme:  readable # specifies the theme
 
 navbar:
   title: "'Big Data' para Economía (UA)"
