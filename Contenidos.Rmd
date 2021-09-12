@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Semana 1  {.columns-2}
 (13-Sept. a 19-Sept.)
 
-  * [Introducción](0Intro.html)
+  * [Introducción](./docs/Tema0.html)
   * [Tema 01 - Introducción a R y a RStudio](Tema01.html)
 
 <br>
