@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 (13-Sept. a 19-Sept.)
 
   * [Introducción](./docs/Tema00.html)
-  * [Tema 01 - Introducción a R y a RStudio](Tema01.html)
+  * [Tema 01 - Introducción a R y a RStudio](./docs/Tema01.html)
 
 <br>
 
@@ -24,7 +24,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ::: {}
 
 <!--
-## Semana 2
+## Semana 2`
 (21-Sept. a 25-Sept.)
 
 
