@@ -11,11 +11,13 @@
 ## no olvides hacer comentarios si lo consideras necesario
 
 
+Ventas_A
 
-vector_dias
+Ventas_B
 
 ###---------- Apartado 1.b) ----------------------------------------------------
 
+Ventas_totales_diarias
 
 Ventas_totales_semana
 
@@ -40,11 +42,13 @@ matriz_ventas
 
 ###---------- Apartado 2.b) ----------------------------------------------------
 
+matriz_ventas2
 
 matriz_ventas_combinada
 
 ###---------- Apartado 2.c) ----------------------------------------------------
 
+ventas_total
 
 matriz_ventas_combinada_total
 
@@ -61,12 +65,6 @@ nacional_seleccion_media
 
 compradores_estimados
 
-# Matriz de precios
-precios_matriz <- matrix(c(5, 5, 6, 6, 7, 7, 4, 4, 4.5, 4.5, 4.9, 4.9), nrow = 6, byrow = TRUE, 
-                         dimnames = list(c(nombres,nombres2), region))
-
-
-
 compradores
 
 ###---------- Apartado 3.a) ----------------------------------------------------
@@ -76,12 +74,9 @@ factor_satisf_vector
 
 ###---------- Apartado 3.b) ----------------------------------------------------
 
-print(sum_vector)
-
 print(sum_factor)
 
 ###---------- Apartado 3.c) ----------------------------------------------------
-
 
 comparar_clientes
 
