@@ -108,18 +108,3 @@ media_consumo_autom
 
 media_consumo_autom_cyl4
 
-
-###---------- Apartado 5.a) ----------------------------------------------------
-
-
-# Estructura de la lista
-str(mi_lista)
-
-mi_lista
-
-###---------- Apartado 5.b) ----------------------------------------------------
-
-
-media_vector
-
-media_datos_5
