@@ -27,7 +27,7 @@ knitr::opts_chunk$set(echo = TRUE)
 (20-Sept. a 24-Sept.)
 
 
-  * [Tema 01 - Ejercicio](Tema01_ejerc.html)
+  * [Tema 01 - Ejercicio](./docs/Tema01_ejerc.html)
     - Plantilla de Archivo .R a rellenar [aquí](https://raw.githubusercontent.com/albarran/BigDataEcon2021/main/Tema01_ejerc.R)
     - Entregar [aquí](https://docs.google.com/forms/d/e/1FAIpQLSfNcz7-CZ4fZOFL4KJzgVNGpcrVMSTjzqsRX8e5HW08hb3B1g/viewform) 
     - Fecha:  lun. 27-Sept. 18:00
