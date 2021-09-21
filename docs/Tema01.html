@@ -204,7 +204,7 @@ slide:not(.current) .plotly.html-widget{
 <li><p>Luego, RStudio desde <a href='https://www.rstudio.com/products/rstudio/download/' title=''>https://www.rstudio.com/products/rstudio/download/</a></p>
 
 <ul>
-<li><p>elegir la opción &ldquo;Free&rdquo;</p></li>
+<li><p>elegir la opción &ldquo;RStudio <strong>Desktop</strong>&rdquo;, &ldquo;Free&rdquo;</p></li>
 <li><p>encontraréis la que se ajusta a vuestro sistema.</p></li>
 </ul></li>
 </ol>
@@ -261,9 +261,15 @@ abs(-5)   # valor absoluto
 9 %/% 4   # división entera 
 9 %% 4    # módulo</pre>
 
+<!--  
+raíz cuadrada
+
+devuelve error
+-->
+
 <ul>
 <li><p>O escribirlas en el Editor de RStudio y enviar a la consola una línea (o líneas seleccionadas) con el icono de &ldquo;Run&rdquo; o con el atajo de teclado &ldquo;Ctrl+Enter&rdquo;</p></li>
-<li><p>Creamos un nuevo archivo en el editor con el icono de &ldquo;+&rdquo; o en <em>File</em> -&gt; <em>New File</em> -&gt; <em>R script</em></p></li>
+<li><p>Creamos un nuevo archivo en el editor con el icono de &ldquo;+&rdquo; o en <em>File</em> → <em>New File</em> → <em>R script</em></p></li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2>Comentarios en R</h2></hgroup><article  id="comentarios-en-r">
@@ -369,8 +375,9 @@ x           # ejecutamos mostrar la variable</pre>
 </ul>
 
 <pre class = 'prettyprint lang-r'>(x &lt;- 2)
-print(x)
-show(x)</pre>
+print(x)</pre>
+
+<!-- show(x)  -->
 
 <ul>
 <li><p>La asignación puede hacerse usando <code>=</code>, pero <code>&lt;-</code> es el método preferido</p></li>
@@ -430,8 +437,7 @@ rm(y)   # eliminar el objeto (variable) &quot;y&quot;</pre>
 
 <pre class = 'prettyprint lang-r'>a&lt;-3; b&lt;-3; c&lt;-a+b
 ls()
-rm(a,b,c)
-ls()</pre>
+rm(a,b,c)</pre>
 
 <ul>
 <li>Para borrar <em>todos</em> los objetos del espacio de trabajo con <code>rm</code></li>
@@ -440,9 +446,9 @@ ls()</pre>
 <pre class = 'prettyprint lang-r'>rm( list=ls() )</pre>
 
 <ul>
-<li><p>o en Environment de RStudio, usando el icono de la escoba</p></li>
-<li><p>Al cerrar RStudio, tendremos la opción de guardar el entorno de trabajo pero esto NO suele resultar interesante en RStudio (a diferencia de otros programas que estáis acostumbrados como Word)</p></li>
-<li><p>Nos interesar más los archivos con los comandos para obtener los resultados.</p></li>
+<li><p>En &ldquo;Environment&rdquo; de RStudio, se puede usar el icono de la escoba</p></li>
+<li><p>Al cerrar RStudio, se puede guardar el entorno de trabajo.</p></li>
+<li><p>A diferencia de otros programas (ej. Word), nos interesa más tener un archivo con la secuencia comandos para obtener los mismos resultados.</p></li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2>Trabajar con ficheros de guión (&ldquo;scripts&rdquo;)</h2></hgroup><article  id="trabajar-con-ficheros-de-guión-scripts">
@@ -469,7 +475,7 @@ ls()</pre>
 
 <ul>
 <li><p>En el editor de RStudio podemos crear nuevos archivos, guardarlos, ejecutar líneas del guión (&ldquo;Run&rdquo; o &ldquo;Ctrl+Enter&rdquo;) o todo el archivo (icono &ldquo;Source&rdquo;)</p></li>
-<li><p>También ofrece resaltado de síntaxis, nos indica si hay un error en una línea, etc.</p></li>
+<li><p>También ofrece resaltado de síntaxis, nos indica si hay un error en una línea, historial de comandos, etc.</p></li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2>Directorio de Trabajo</h2></hgroup><article  id="directorio-de-trabajo">
@@ -484,7 +490,7 @@ ls()</pre>
 
 <ul>
 <li><p>En la pestaña <em>Files</em>, <em>More</em>: <em>Set as Working Directory</em> (una vez)</p></li>
-<li><p>menú <em>Tools</em> -&gt; <em>Global Options</em>: General (permanente)</p></li>
+<li><p>menú <em>Tools</em> → <em>Global Options</em>: General (permanente)</p></li>
 <li><p>con el comando de R</p></li>
 </ul></li>
 </ul>
@@ -512,23 +518,22 @@ ls()</pre>
 
 <ul>
 <li>fijar un directorio de trabajo &ldquo;raíz&rdquo;</li>
-<li>estructurar subdirectorios para distintos tipos de archivos (ej., datos originales, resutlados, etc.)</li>
+<li>estructurar subdirectorios para distintos tipos de archivos (ej., datos originales, resul5ados, etc.)</li>
 <li>los archivos de código se puede poner en el raíz o en un subdirectorio específico</li>
 </ul></li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>Estructuras Básicas de Datos</h2></hgroup><article  id="estructuras-básicas-de-datos">
+</article></slide><slide class=""><hgroup><h2>Estructuras Básicas de Datos en R</h2></hgroup><article  id="estructuras-básicas-de-datos-en-r">
 
-<ul>
-<li><p>R trabaja con varias estructuras de datos:</p>
-
-<ul>
+<ol>
 <li>vectores (incluidos los escalares)</li>
 <li>matrices</li>
 <li>factores</li>
 <li>conjunto de datos (<em>data frame</em>)</li>
 <li>listas</li>
-</ul></li>
+</ol>
+
+<ul>
 <li><p>Como todos los objetos de R, pueden tener clases</p>
 
 <ul>
@@ -557,7 +562,7 @@ yvect &lt;- c(&quot;hola&quot;, &quot;adios&quot;)            # vector de caract
 zvect &lt;- c(FALSE, TRUE, FALSE, FALSE)  # vector lógico</pre>
 
 <ul>
-<li>La clase (o modo) de un tipo de objeto se puede conocer con el comando</li>
+<li>La clase <!--(o modo)--> de un tipo de objeto se puede conocer con el comando</li>
 </ul>
 
 <pre class = 'prettyprint lang-r'>class(yvect)</pre>
@@ -586,9 +591,17 @@ mode(zvect)
 <li><p>Los nombres de un vector es un vector de caracteres de la misma longitud</p></li>
 </ul>
 
-<pre class = 'prettyprint lang-r'>x &lt;- c(1,2,3,2,1)
-names(x) &lt;- c(&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;, &quot;e&quot;)
-names(x)    </pre>
+<pre class = 'prettyprint lang-r'>altura &lt;- c(176, 165, 189, 155, 168, 173, 184)
+altura
+
+names(altura) &lt;- c(&quot;Jose&quot;, &quot;Maria&quot;, &quot;Juan&quot;, &quot;Elena&quot;, &quot;Rosa&quot;, &quot;Mario&quot;, &quot;Luis&quot;)
+names(altura)
+altura
+
+altura2 &lt;- c(186, 154, 168, 175, 158, 183, 167)
+nombres2 &lt;- c(&quot;Juan&quot;, &quot;Miguel&quot;, &quot;Susana&quot;, &quot;Gema&quot;, &quot;Arturo&quot;, &quot;Esteban&quot;, &quot;Josefa&quot;)
+names(altura2) &lt;- nombres2
+altura2</pre>
 
 </article></slide><slide class=""><hgroup><h2>Conversión entre clases</h2></hgroup><article  id="conversión-entre-clases">
 
