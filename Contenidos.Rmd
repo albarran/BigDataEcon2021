@@ -40,13 +40,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ::: {}
 
-<!--
+
 ## Semana 3
-(28-Sept. a 2-Oct.)
+(27-Sept. a 1-Oct.)
 
 
-  * [Práctica 02 - Visualización de Datos](Pract02.html)
--->
+  * [Tema 02 - Extendiendo R](./docs/Tema02.html)
+  
 
 <br>
 
