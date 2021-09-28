@@ -47,6 +47,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
   * [Tema 02 - Extendiendo R](./docs/Tema02.html)
   
+  * [Tema 03 - Visualización de datos](./docs/Tema03.html)
+  
 
 <br>
 
