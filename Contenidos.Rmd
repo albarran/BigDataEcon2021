@@ -46,9 +46,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
   * [Tema 02 - Extendiendo R](./docs/Tema02.html)
-  
-  * [Tema 03 - Visualización de datos](./docs/Tema03.html)
-  
 
 <br>
 
@@ -56,25 +53,23 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ::::
 
-<!--
+
 
 :::: {style="display: flex;"}
 
 ::: {}
 ## Semana 4
-(5-Oct. a 8-Oct.)
+(4-Oct. a 8-Oct.)
 
- * [Tema 03 - Manipulación de Datos](Tema03sl.html)
- * [Ejercicio 01 sobre R](Ejerc01.html)
- * [Ejercicio 02 sobre R Markdown](Ejerc02.html)
- 
- * Los ejercicios se deben entregar el lunes 19 de octubre
+  * [Tema 03 - Visualización de datos](./docs/Tema03.html)
 
 <br>
+
 
 :::
 
 ::: {}
+<!--
 ## Semana 5
 (12-Oct. a 16-Oct.)
 
@@ -83,10 +78,12 @@ knitr::opts_chunk$set(echo = TRUE)
       + Entregar el lunes 26 de octubre (Economía) / 3 de noviembre (ADE)
 
 <br>
-
+-->
 :::
 
 ::: {}
+
+<!--
 ## Semana 6
 (19-Oct. a 24-Oct.)
 
@@ -94,12 +91,12 @@ knitr::opts_chunk$set(echo = TRUE)
  * [Práctica 03 - Análisis Exploratorio de Datos](Pract03.html)
 
 <br>
-
+-->
 :::
 
 ::::
 
-
+<!--
 :::: {style="display: flex;"}
 
 ::: {}
