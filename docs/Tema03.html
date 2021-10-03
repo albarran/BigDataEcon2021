@@ -661,8 +661,13 @@ Los argumentos a las funciones `stat_` pueden pasarse a través de las funciones
 <pre class = 'prettyprint lang-r'>graf &lt;- ggplot(housing, aes(x = Home.Value))
 graf + geom_histogram(stat = &quot;bin&quot;, binwidth=4000)
 
-graf + geom_histogram(stat = &quot;density&quot;)  # caso continuo
-graf + geom_freqpoly()</pre>
+graf + geom_histogram(stat = &quot;density&quot;)             # aproximación continua
+graf + geom_density()
+graf + geom_histogram(aes(y=..density..), stat = &quot;bin&quot;, binwidth=4000) + geom_density()</pre>
+
+<!-- 
+graf + geom_freqpoly()
+-->
 
 <!--
 
@@ -684,7 +689,6 @@ graf + geom_freqpoly()</pre>
 Region_df &lt;- tibble(nombre = names(Region), casos = Region)
 
 ggplot(Region_df, aes(x=nombre, y=casos)) + geom_bar()
-
 ggplot(Region_df, aes(x=nombre, y=casos)) + geom_bar(stat=&quot;identity&quot;)  # NO transformar</pre>
 
 <!--
@@ -896,9 +900,8 @@ g3 + facet_grid(. ~ region)     # o columnas</pre>
 <li>Es una buena idea que los nombres de ejes, leyendas, etc. sean descripciones claras de las variables (y sus unidades)</li>
 </ul>
 
-<pre class = 'prettyprint lang-r'>ggplot(hp2001Q1, aes(y = Structure.Cost/1000, x = Land.Value/1000)) +
+<pre class = 'prettyprint lang-r'>ggplot(hp2001Q1, aes(y = Structure.Cost/1000, x = Land.Value/1000)) + scale_x_log10()+
     geom_point(aes(color = region)) + geom_smooth(method = &quot;lm&quot;, se = FALSE) +
-    scale_x_log10()+
     labs(x = &quot;Valor del terreno (miles de $), escala logarítmica&quot;,
          y = &quot;Valor de la construcción (miles de $)&quot;,
          colour = &quot;Región&quot;) +
@@ -1069,7 +1072,7 @@ Más sobre los `ggthemes` y `scales` en la ayuda del paquete, por ejemplo, [aqu�
 
 <ul>
 <li><p>Ayuda en RStudio, <em>Help &gt; Cheatsheets &gt; Data Visualization with ggplot2</em></p></li>
-<li><p>Fuentes de información con chuletas de R y RStudio (aquí)[<a href='https://www.rstudio.com/resources/cheatsheets/' title=''>https://www.rstudio.com/resources/cheatsheets/</a>]</p>
+<li><p>Fuentes de información con chuletas de R y RStudio <a href='https://www.rstudio.com/resources/cheatsheets/' title=''>aquí</a></p>
 
 <ul>
 <li>existen versiones en castellano de algunas de ellas.</li>
@@ -1081,6 +1084,8 @@ Más sobre los `ggthemes` y `scales` en la ayuda del paquete, por ejemplo, [aqu�
 -->
 
 </article></slide><slide class=""><hgroup><h2>Poniéndolo todo junto</h2></hgroup><article  id="poniéndolo-todo-junto">
+
+<!-- <https://stackoverflow.com/questions/7549694/add-regression-line-equation-and-r2-on-graph> -->
 
 <ul>
 <li>Estamos en condiciones de recrear gráficos profesionales como <a href='http://www.economist.com/node/21541178' title=''>este</a> de <code>The Economist</code></li>
