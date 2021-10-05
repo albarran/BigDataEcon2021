@@ -7,6 +7,34 @@ classoption: twocolumn
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+<!-- 
+otro forma de columnas
+https://holtzy.github.io/Pimp-my-rmd/#text_formating
+
+<div class = "row">
+  
+<div class = "col-md-4">
+<br><br> 
+
+[bootstrap framework](https://getbootstrap.com/docs/4.0/layout/grid/) under the hood. It is Row is divided in 12 subunits of same width. 
+
+</div>
+  
+<div class = "col-md-4">
+<br><br>Here, I use 3 subunits of size 4 (4x3=12). 
+
+</div>
+  
+<div class = "col-md-4">
+``{r, message=FALSE, echo=FALSE}
+ggplot( mtcars, aes(x=mpg)) + geom_histogram(fill="skyblue", alpha=0.5) + theme_minimal()
+``
+</div>
+</div>
+
+-->
+
+
 :::: {style="display: flex;"}
 
 ::: {}
@@ -66,6 +94,8 @@ knitr::opts_chunk$set(echo = TRUE)
   * [Tema 03 - Ejercicio](./docs/Tema03_ejerc.html)
     - Entregar [aquí](https://docs.google.com/forms/d/e/1FAIpQLSccdbd-7YhwJ2jSEEYbu9tWg4cjkw2run1wBioaiza5B-f6kQ/viewform) 
     - Fecha:  mie. 13-Oct. 18:00h
+
+  * [Tema 04 - Introducción a R Markdown](./docs/Tema04c.html)
 
 <br>
 
