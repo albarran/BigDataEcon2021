@@ -62,6 +62,10 @@ knitr::opts_chunk$set(echo = TRUE)
 (4-Oct. a 8-Oct.)
 
   * [Tema 03 - Visualización de datos](./docs/Tema03.html)
+  
+  * [Tema 03 - Ejercicio](./docs/Tema03_ejerc.html)
+    - Entregar [aquí](https://docs.google.com/forms/d/e/1FAIpQLSccdbd-7YhwJ2jSEEYbu9tWg4cjkw2run1wBioaiza5B-f6kQ/viewform) 
+    - Fecha:  mie. 13-Oct. 18:00h
 
 <br>
 
