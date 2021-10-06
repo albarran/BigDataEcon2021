@@ -8,6 +8,21 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 <!-- 
+
+:::: {style="display: flex;"}
+
+::: {}
+
+:::
+
+::: {}
+
+:::
+
+::::
+
+
+
 otro forma de columnas
 https://holtzy.github.io/Pimp-my-rmd/#text_formating
 
@@ -34,10 +49,11 @@ ggplot( mtcars, aes(x=mpg)) + geom_histogram(fill="skyblue", alpha=0.5) + theme_
 
 -->
 
+<!-- **********************************************************************  -->
+<div class = "row">
 
-:::: {style="display: flex;"}
-
-::: {}
+<div class = "col-md-4">
+<br><br> 
 
 ## Semana 1  {.columns-2}
 (13-Sept. a 19-Sept.)
@@ -47,9 +63,10 @@ ggplot( mtcars, aes(x=mpg)) + geom_histogram(fill="skyblue", alpha=0.5) + theme_
 
 <br>
 
-:::
-
-::: {}
+</div>
+  
+<div class = "col-md-4">
+<br><br>
 
 ## Semana 2
 (20-Sept. a 24-Sept.)
@@ -63,11 +80,10 @@ ggplot( mtcars, aes(x=mpg)) + geom_histogram(fill="skyblue", alpha=0.5) + theme_
 
 <br>
 
-
-:::
-
-::: {}
-
+</div>
+  
+<div class = "col-md-4">
+<br><br>
 
 ## Semana 3
 (27-Sept. a 1-Oct.)
@@ -77,15 +93,16 @@ ggplot( mtcars, aes(x=mpg)) + geom_histogram(fill="skyblue", alpha=0.5) + theme_
 
 <br>
 
-:::
-
-::::
-
+</div>
+</div>
 
 
-:::: {style="display: flex;"}
+<!-- **********************************************************************  -->
+<div class = "row">
 
-::: {}
+<div class = "col-md-4">
+<br><br> 
+
 ## Semana 4
 (4-Oct. a 8-Oct.)
 
@@ -95,27 +112,27 @@ ggplot( mtcars, aes(x=mpg)) + geom_histogram(fill="skyblue", alpha=0.5) + theme_
     - Entregar [aquí](https://docs.google.com/forms/d/e/1FAIpQLSccdbd-7YhwJ2jSEEYbu9tWg4cjkw2run1wBioaiza5B-f6kQ/viewform) 
     - Fecha:  mie. 13-Oct. 18:00h
 
+<br>
+
+</div>
+  
+<div class = "col-md-4">
+<br><br>
+
+## Semana 5
+(11-Oct. a 15-Oct.)
+
   * [Tema 04 - Introducción a R Markdown](./docs/Tema04c.html)
 
 <br>
 
+</div>
+  
+<div class = "col-md-4">
+<br><br>
 
-:::
-
-::: {}
-<!--
-## Semana 5
-(12-Oct. a 16-Oct.)
-
- * [Tema 03 - Mini-Práctica](PregT03.Ejerc.html)
- * [Ejercicio 03 sobre Visualización de Datos](Ejerc03.html)
-      + Entregar el lunes 26 de octubre (Economía) / 3 de noviembre (ADE)
-
-<br>
--->
-:::
-
-::: {}
+</div>
+</div>
 
 <!--
 ## Semana 6
@@ -126,14 +143,14 @@ ggplot( mtcars, aes(x=mpg)) + geom_histogram(fill="skyblue", alpha=0.5) + theme_
 
 <br>
 -->
-:::
-
-::::
 
 <!--
-:::: {style="display: flex;"}
+<!-- ********************************************************************** 
+<div class = "row">
 
-::: {}
+<div class = "col-md-4">
+<br><br> 
+
 ## Semana 7
 (26-Oct. a 31-Oct.)
 
@@ -169,10 +186,12 @@ ggplot( mtcars, aes(x=mpg)) + geom_histogram(fill="skyblue", alpha=0.5) + theme_
 
 ::::
 
+<!-- ********************************************************************** 
+<div class = "row">
 
-:::: {style="display: flex;"}
+<div class = "col-md-4">
+<br><br> 
 
-::: {}
 ## Semana 10
 (16-Nov. a 20-Nov.)
 
@@ -212,9 +231,12 @@ ggplot( mtcars, aes(x=mpg)) + geom_histogram(fill="skyblue", alpha=0.5) + theme_
 ::::
 
 
-:::: {style="display: flex;"}
+<!-- ********************************************************************** 
+<div class = "row">
 
-::: {}
+<div class = "col-md-4">
+<br><br> 
+
 ## Semana 13
 (07-Dic. a 11-Dic.)
 
