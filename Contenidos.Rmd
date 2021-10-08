@@ -123,6 +123,9 @@ ggplot( mtcars, aes(x=mpg)) + geom_histogram(fill="skyblue", alpha=0.5) + theme_
 (11-Oct. a 15-Oct.)
 
   * [Tema 04 - Introducción a R Markdown](./docs/Tema04c.html)
+  
+  * [Tema 04 - Ejercicio](./docs/Tema04_ejerc.html)
+    - Entregar [aquí](https://docs.google.com/forms/d/e/1FAIpQLSfiztzC-uNclcnwywhCLGwWAoOLG6GC6510hBote3ufooN8GA/viewform) 
 
 <br>
 
