@@ -171,78 +171,72 @@ pre code {
 </div>
 
 
-<div id="apartado-1" class="section level1">
-<h1>Apartado 1</h1>
-<ol style="list-style-type: lower-alpha">
-<li><p>Iniciar un nuevo documento de R Markdown desde el menú Archivo. Adapta el encabezado para que tenga, al menos, un título y tu nombre como autor o autora. (Puedes eliminar el resto del contenido o modificarlo según se pida en los siguientes apartados)</p></li>
-<li><p>Vamos a modificar el fragmento de código inicial, <code>setup</code>.</p>
+<div id="apartado-a" class="section level1">
+<h1>Apartado a)</h1>
 <ol style="list-style-type: lower-roman">
-<li>Borrar todo los objetos del entorno de trabajo (del documento) con <code>rm(list = ls())</code></li>
-<li>Fijar vuestro directorio de trabajo con <code>setwd()</code></li>
-<li>Cargar el biblioteca <code>tidyverse</code> y cualquier otra biblioteca que consideres necesaria para todo el documento.</li>
-<li>Renderizar el documento. Notar que gracias a <code>include=FALSE</code> no se muestran los mensajes producidos al cargar las bibliotecas.</li>
-</ol></li>
-<li><p>Crear una primera sección del documento, con el nombre que quieras. Escribe un <strong>breve</strong> frase introductoria general y una lista que enumere las dos variables que elegiste para el Ejercicio del Tema 3.</p>
+<li><p>Iniciar un nuevo documento de R Markdown desde el menú Archivo. Adapta el encabezado para que tenga, al menos, un título y tu nombre como autor o autora. (Puedes eliminar o modificar el resto del contenido para los siguientes apartados)</p></li>
+<li><p>Modificar el fragmento de código inicial, <code>setup</code>:</p>
+<ul>
+<li>Incluir el código <code>rm(list = ls())</code>: al empezar, se borran todo los objetos del entorno de trabajo (del documento).</li>
+<li>Incluir el código para establecer el directorio de trabajo con <code>setwd()</code></li>
+<li>Cargar el biblioteca <code>tidyverse</code> (en general, aquí cargaremos cualquier biblioteca necesaria para <em>todo</em> el documento).</li>
+<li>Finalmente, renderizar el documento. Notar que gracias a <code>include=FALSE</code> no se muestran los mensajes producidos al cargar las bibliotecas.</li>
+</ul></li>
+<li><p>Crea una primera sección del documento, p.e., con el nombre “Apartado a)”. Para <strong>cada apartado</strong> posterior debes crear <strong>una nueva sección</strong> correspondiente al apartado.</p></li>
+<li><p>Escribe un <strong>breve</strong> frase introductoria general y una lista que enumere las dos variables que elegiste para el Ejercicio del Tema 3.</p>
 <p>Nota: Puedes usar, aquí y en cualquier otra parte del documento, negritas o cursivas cuando lo consideres oportuno.</p></li>
 <li><p>Incluye un enlace a una página web e inserta una imagen.</p></li>
 </ol>
 </div>
-<div id="apartado-2" class="section level1">
-<h1>Apartado 2</h1>
-<ol style="list-style-type: lower-alpha">
-<li><p>Crear una segunda sección del documento, con el nombre que quieras.</p></li>
-<li><p>Crear y dar un nombre a una sub-sección.</p>
+<div id="apartado-b" class="section level1">
+<h1>Apartado b)</h1>
 <ol style="list-style-type: lower-roman">
-<li><p>Incluye tres fragmentos todos con el código <code>summary(mtcars)</code>. El primero debe mostrar el código, pero no el resultado; el segundo sólo mostrar el código, pero no el resultado; el tercero debe mostrar ambos.</p></li>
-<li><p>Antes de cada fragmento, incluye una frase explicando qué va a pasar.</p></li>
-</ol></li>
-<li><p>Cargar las bibliotecas <code>AER</code> y <code>Hmisc</code> en un fragmento de código. Cambia los valores de <code>warning</code>, <code>error</code> y <code>message</code> y renderiza el documento para observar los cambios. Comentar los cambios <strong>brevemente</strong> y qué forma de presentación prefieres para tu documento.</p></li>
+<li><p>Crear y dar un nombre a una sub-sección que incluya lo siguiente.</p>
+<ul>
+<li><p>Tres fragmentos, todos con el código <code>summary(mtcars)</code>. El primero debe mostrar el código, pero no el resultado; el segundo sólo mostrar el código (no el resultado); el tercero debe mostrar ambos. Antes de cada fragmento, incluye una frase explicando qué va a pasar.</p></li>
+<li><p>Cargar las bibliotecas <code>AER</code> y <code>Hmisc</code> en un nuevo fragmento de código. Cambia los valores de <code>warning</code>, <code>error</code> y <code>message</code> y renderiza el documento para observar los cambios. Comentar los cambios <strong>brevemente</strong> y qué forma de presentación prefieres para tu documento.</p></li>
+</ul></li>
 <li><p>Crear y dar nombre a otra sub-sección.</p>
-<ol style="list-style-type: lower-roman">
-<li><p>Añadir un fragmento con el código <code>a &lt;- 2</code>, y la opción <code>eval=FALSE</code>. Añadir otro fragmento posterior con código <code>3 + a</code> y que sea evaluado. Renderizar el documento y comprobar que da un error.</p></li>
-<li><p>Cambiar las opciones para que se pueda renderizar y obtener un documento de salida.</p></li>
-</ol></li>
+<ul>
+<li><p>Añadir un fragmento con el código <code>a &lt;- 2</code>, con la opción <code>eval=FALSE</code>. Añadir otro fragmento posterior con código <code>3 + a</code> y que sí se evalúe. Renderizar el documento y comprobar que da un error.</p></li>
+<li><p>Cambiar las opciones del segundo fragmento para que se pueda renderizar un documento de salida.</p></li>
+</ul></li>
 </ol>
 </div>
-<div id="apartado-3" class="section level1">
-<h1>Apartado 3</h1>
-<ol style="list-style-type: lower-alpha">
-<li><p>Crear una tercera sección del documento, con el nombre que quieras.</p></li>
-<li><p>Crear un fragmento con el código para mostrar un gráfico de puntos con los datos de <code>mtcars</code> para las variables <code>dip</code> (tamaño del depósito) y <code>mpg</code> (consumo).</p>
+<div id="apartado-c" class="section level1">
+<h1>Apartado c)</h1>
 <ol style="list-style-type: lower-roman">
-<li><p>Añadir en el <em>fragmento de código</em> (no usando <code>ggplot</code>) una leyenda del gráfico.</p></li>
+<li><p>Crear un fragmento con el código para mostrar un gráfico de puntos con los datos de <code>mtcars</code> para las variables <code>disp</code> (tamaño del depósito) y <code>mpg</code> (consumo).</p>
+<ul>
+<li><p>Añadir en el <em>fragmento de código</em> (no usando <code>ggplot</code>) un título del gráfico (aparece en la parte inferior).</p></li>
 <li><p>Cambiar con YAML la opción de ancho de la figura. Observar cómo cambia y elegir el que consideréis mejor, explicando <strong>muy brevemente</strong> vuestra elección.</p></li>
-</ol></li>
-<li><p>Crear un nuevo fragmento de código que incluya dos gráficos de caja, el de <code>dip</code> y el de <code>mpg</code>, que se muestren uno al lado del otro.</p></li>
+</ul></li>
+<li><p>Crear un nuevo fragmento de código que incluya dos gráficos de caja, para <code>disp</code> y para <code>mpg</code>, que se muestren uno al lado del otro.</p></li>
 </ol>
 </div>
-<div id="apartado-4" class="section level1">
-<h1>Apartado 4</h1>
-<ol style="list-style-type: lower-alpha">
-<li>Crear una nueva sección del documento, con el nombre que quieras.</li>
-</ol>
+<div id="apartado-d" class="section level1">
+<h1>Apartado d)</h1>
 <!--
 1. Incluir un nuevo fragmento de código (que sí se evalúe) que cargue la biblioteca `printr` y que incluya el código `head(mtcars)` y `summary(mtcars)`. Comentar brevemente las diferencias con el apartado a) y qué forma de presentación prefieres para tu documento.
 -->
-<ol start="2" style="list-style-type: lower-alpha">
-<li><p>Crear una sub-sección. Incluir un nuevo fragmento de código (que sí se evalúe) que muestre <code>mtcars</code> y <code>summary(mtcars)</code>.</p></li>
-<li><p>Crear una sub-sección. Incluir un nuevo fragmento de código (que sí evalue) y que incluya:</p>
+<ol style="list-style-type: lower-roman">
+<li><p>Crear una sub-sección. Incluir un nuevo fragmento de código (que sí se evalúe) para mostar <code>mtcars</code> y <code>summary(mtcars)</code>.</p></li>
+<li><p>Crear una sub-sección. Incluir un nuevo fragmento de código (que sí evalúe) y que incluya:</p>
 <ul>
 <li>cargar la biblioteca <code>knitr</code> para poder usar la función <code>kable()</code></li>
-<li>mostrar <code>kable(mtcars)</code> y <code>kable(summary(mtcars))</code></li>
+<li>mostrar el resultado de <code>kable(mtcars)</code> y <code>kable(summary(mtcars))</code></li>
 </ul>
-<p>Comentar las diferencias con el apartado anterior, 4.b, y y qué forma de presentación prefieres para tu documento.</p></li>
+<p>Comentar las diferencias con el apartado anterior, d.i), y y qué forma de presentación prefieres para tu documento.</p></li>
 </ol>
 </div>
-<div id="apartado-5" class="section level1">
-<h1>Apartado 5</h1>
-<ol style="list-style-type: lower-alpha">
-<li><p>Crear una nueva sección del documento, con el nombre que quieras.</p></li>
-<li><p>Incluye la opción <code>df_print: paged</code> en el encabezado YAML. Comprobar el efecto antes y después de incluirlo sobre cómo se muestra el conjunto de datos (“data frame”) <code>mtcars</code> en los apartados 4.b y 4.c.</p>
+<div id="apartado-e" class="section level1">
+<h1>Apartado e)</h1>
+<ol style="list-style-type: lower-roman">
+<li><p>Incluir la opción <code>df_print: paged</code> en el encabezado YAML. Comprobar el efecto antes y después de incluirlo sobre cómo se muestra el conjunto de datos (“data frame”) <code>mtcars</code> en los apartados d.i) y d.ii).</p>
 <p>Comentar las diferencias y qué forma de presentación prefieres para tu documento.</p></li>
 <li><p>Incluye la opción <code>code_folding: hide</code> en el encabezado YAML. Comprobar cómo cambia el documento y comentar <strong>brevemente</strong> qué forma de presentación prefieres para tu documento.</p></li>
 <li><p>Elige un tema para tu documento entre <a href="https://bootswatch.com/3/">estos</a> y aplícalo al documento.</p></li>
-<li><p>Escribe una línea de texto (NO fragmento de código) incluyan entre el texto código de R, de manera que una muestra la media de la variable <code>mpg</code> y otra el código</p></li>
+<li><p>Escribe una línea de texto (NO fragmento de código) que incluya (entre el texto) código de R para mostrar la media de la variable <code>mpg</code>.</p></li>
 </ol>
 <!--
 10. Usar el código `format(Sys.time(), "%B %e, %Y a las %H:%M:%S"))` en una línea de texto para mostrar la fecha y hora en la que el documento se renderiza.
