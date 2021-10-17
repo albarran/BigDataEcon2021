@@ -142,8 +142,8 @@ ggplot( mtcars, aes(x=mpg)) + geom_histogram(fill="skyblue", alpha=0.5) + theme_
 ## Semana 6
 (18-Oct. a 23-Oct.)
 
- * [Tema 05 - Manipulación de Datos](Tema05.html)
- * [Tema 05 - Ejercicio](Tema05_Ejerc.html)
+ * [Tema 05 - Manipulación de Datos](./docs/Tema05.html)
+ * [Tema 05 - Ejercicio](./docs/Tema05_Ejerc.html)
 
 <br>
 
