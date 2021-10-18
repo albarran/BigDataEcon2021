@@ -173,32 +173,36 @@ pre code {
 
 <div id="entrega-del-ejercicio" class="section level1">
 <h1>Entrega del ejercicio</h1>
-<p>Escribe un archivo .Rmd con el código y el texto (breve) para responder a las siguientes preguntas. La transformación de datos deberá ser una línea con comandos anidados.</p>
-<p>Rellenad este <a href="https://docs.google.com/forms/d/e/1FAIpQLScYLKXLOzQWcL5ACQuwlixcx18411t90JRFfzHK_AtQDcosPA/viewform">FORMULARIO</a> con vuestros datos y subid</p>
-<ul>
-<li>vuestro archivo de .Rmd</li>
-<li>el archivo .html resultado de compilarlo en RStudio.</li>
-</ul>
-<p>IMPORTANTE: los nombres de los archivos DEBEN EMPEZAR con vuestro número de DNI (el resto es libre): ej.,</p>
-<blockquote>
-<p>12345678_T05_ejerc.Rmd</p>
-</blockquote>
-<blockquote>
-<p>12345678_T05_ejerc.html</p>
-</blockquote>
+<!--
+Escribe un archivo .Rmd con el código y el texto (breve) para responder a las siguientes preguntas. La transformación de datos deberá ser una línea con comandos anidados.
+
+
+Rellenad este [FORMULARIO](https://docs.google.com/forms/d/e/1FAIpQLScYLKXLOzQWcL5ACQuwlixcx18411t90JRFfzHK_AtQDcosPA/viewform) con vuestros datos y subid
+
+- vuestro archivo de .Rmd
+- el archivo .html resultado de compilarlo en RStudio.
+
+IMPORTANTE: los nombres de los archivos DEBEN EMPEZAR con vuestro número de DNI (el resto es libre): ej.,
+
+> 12345678_T05_ejerc.Rmd
+
+> 12345678_T05_ejerc.html
+-->
+<p>Este ejercicio se realizará en clase y NO cuenta para los alumnos de evaluación NO continua (aunque es recomendable como práctica).</p>
+<p>Para responder a las preguntas, rellenad este <a href="https://docs.google.com/forms/d/e/1FAIpQLSfXrZsW-_u968ffht7GCeXKts5CKljG5uqq07H0UjA-EBN_0A/viewform">FORMULARIO</a> con vuestros datos usando vuestra cuenta institucional de Google Cloud (<span class="citation">@gcloud.ua.es</span>). El proceso será contestar a UNA pregunta solo y enviar (<em>Submit</em>). <strong>Importante</strong>: NO cerrar la pestaña después de enviar y que aparezca “Tú respuesta ha sido guardada correctamente”, porque usaremos el enlace que aparece en “Edit your response” para volver al <em>mismo</em> formulario con vuestros datos ya rellenos (y la respuesta a preguntas anteriores) para responder a las siguientes preguntas.</p>
 </div>
 <div id="datos" class="section level1">
 <h1>Datos</h1>
-<p>Descargad este archivo (comprimido) con datos en texto separados por punto y coma con la siguiente información de los empleados de una empresa: el identificador de empleado (ID), sus dos apellidos y su nombre, su género (hombre o mujer) y las ventas realizadas por dicho empleado en un periodo concreto, dado por año y mes.</p>
+<p>Descargad <a href="https://github.com/albarran/BigDataEcon2021/raw/main/data/empleados.csv.zip">este archivo (comprimido)</a> con datos en texto separados por punto y coma con la siguiente información de los empleados de una empresa: el identificador de empleado (<code>ID</code>), sus dos apellidos y su nombre, su género (hombre o mujer) y el valor de las <code>ventas</code> realizadas por dicho empleado en un periodo concreto, dado por año y mes.</p>
 </div>
 <div id="preguntas" class="section level1">
 <h1>Preguntas</h1>
 <ol style="list-style-type: decimal">
-<li>Elige como identificador del empleado las cuatro últimas cifras de tu DNI o similar. Encontrar el periodo (año y mes) en los que</li>
-</ol>
+<li><p>Elige como identificador del empleado las cuatro últimas cifras de tu DNI o similar. Encontrar el periodo (año y mes) en los que</p>
 <ol style="list-style-type: lower-alpha">
 <li>sus ventas totales fueron mayores</li>
-<li>sus ventas relativas al total de ventas en ese periodo (proporción vendida por ese empleado) fueron mayores.</li>
+<li>sus ventas relativas al total de ventas en ese periodo (proporción vendida por ese empleado en un periodo) fueron mayores.</li>
+</ol></li>
 </ol>
 <!--
 2. ¿Qué nombre fue el más popular en el año del apartado anterior?
@@ -247,7 +251,7 @@ What was the daily average number of flights leaving each of the three NYC airpo
 
 -->
 <ol start="4" style="list-style-type: decimal">
-<li><p>Usando los datos del paquete <code>nycflights13</code>, calcular para cada compañía (<code>carrier</code>) el número total de vuelos, el retraso medio en la salida, el número de destinos únicos a los que vuela, y el número de aviones únicos utilizados.</p></li>
+<li><p>Cargar los datos de vuelos <code>flights</code> de la biblioteca <code>nycflights13</code>. Calcular para cada compañía (<code>carrier</code>) el número total de vuelos, el retraso medio en la salida, el número de destinos únicos a los que vuela, y el número de aviones únicos utilizados.</p></li>
 <li><p>Usando el conjunto de datos obtenido en el apartado anterior, obtener los siguientes gráficos:</p>
 <ul>
 <li><p>Un gráfico de caja (<code>boxplot</code>) del retraso medio.</p></li>
