@@ -126,6 +126,7 @@ ggplot( mtcars, aes(x=mpg)) + geom_histogram(fill="skyblue", alpha=0.5) + theme_
   
   * [Tema 04 - Ejercicio](./docs/Tema04_ejerc.html)
     - Entregar [aquí](https://docs.google.com/forms/d/e/1FAIpQLSfiztzC-uNclcnwywhCLGwWAoOLG6GC6510hBote3ufooN8GA/viewform) 
+
     (NOTA: este ejercicio NO es evaluable para Evaluación NO Continua)
 
 <br>
@@ -135,17 +136,17 @@ ggplot( mtcars, aes(x=mpg)) + geom_histogram(fill="skyblue", alpha=0.5) + theme_
 <div class = "col-md-4">
 <br><br>
 
-</div>
-</div>
-
-
 ## Semana 6
 (18-Oct. a 23-Oct.)
 
  * [Tema 05 - Manipulación de Datos](./docs/Tema05.html)
  * [Tema 05 - Ejercicio](./docs/Tema05_Ejerc.html)
-
+ 
+ * [Tema 06 - Manipulación de Datos Relacionales](./docs/Tema06.html)
 <br>
+
+</div>
+</div>
 
 <!--
 <!-- ********************************************************************** 
