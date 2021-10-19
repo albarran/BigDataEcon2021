@@ -143,6 +143,7 @@ ggplot( mtcars, aes(x=mpg)) + geom_histogram(fill="skyblue", alpha=0.5) + theme_
  * [Tema 05 - Ejercicio](./docs/Tema05_Ejerc.html)
  
  * [Tema 06 - Manipulación de Datos Relacionales](./docs/Tema06.html)
+ * [Tema 06 - Ejercicio](./docs/Tema06_Ejerc.html)
 <br>
 
 </div>
