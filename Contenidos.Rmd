@@ -160,31 +160,27 @@ ggplot( mtcars, aes(x=mpg)) + geom_histogram(fill="skyblue", alpha=0.5) + theme_
  * [Tema 06 - Manipulación de Datos Relacionales](./docs/Tema06.html)
  * [Tema 06 - Ejercicio](./docs/Tema06_Ejerc.html)
  
- * [Tema 07 - Datos Ordenados](./docs/Tema07.html)
- * [Tema 07 - Ejercicio](./docs/Tema07_Ejerc.html)
-    - Entregar [aquí](https://docs.google.com/forms/d/e/1FAIpQLSfKMmZTCo0Yd-AY47p5BWM-yEwI3EvtbvxgB-183jAyylHAKQ/viewform)
-    - Fecha:  mie. 3-Nov. 18:00h
  
 <br>
 
 </div>
+
+<div class = "col-md-4">
+<br><br> 
+
+
+## Semana 8
+(2-Nov. a 5-Nov.)
+
+ * [Tema 07 - Datos Ordenados](./docs/Tema07.html)
+ * [Tema 07 - Ejercicio](./docs/Tema07_Ejerc.html)
+    - Entregar [aquí](https://docs.google.com/forms/d/e/1FAIpQLSfKMmZTCo0Yd-AY47p5BWM-yEwI3EvtbvxgB-183jAyylHAKQ/viewform)
+    - Fecha:  mie. 10-Nov. 18:00h
+ 
+</div>
 </div>
 
 <!--
-
-## Semana 8
-(2-Nov. a 6-Nov.)
-
-  * [Tema 05 - Datos Ordenados](Tema05sl.html)
-  * [Ejercicio del Tema 05](EjercT05.html)
-  
-  * [Tema 06A - Funciones](Tema06Asl.html)
-  * [Ejercicio del Tema 06A](EjercT06A.html)
-  
-::: 
-
-::: {}
-
 ## Semana 9
 (9-Nov. a 13-Nov.)
 
