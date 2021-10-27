@@ -177,19 +177,22 @@ ggplot( mtcars, aes(x=mpg)) + geom_histogram(fill="skyblue", alpha=0.5) + theme_
     - Entregar [aquí](https://docs.google.com/forms/d/e/1FAIpQLSfKMmZTCo0Yd-AY47p5BWM-yEwI3EvtbvxgB-183jAyylHAKQ/viewform)
     - Fecha:  mie. 10-Nov. 18:00h
  
-</div>
+
 </div>
 
-<!--
+<div class = "col-md-4">
+<br><br> 
+
+
+
 ## Semana 9
 (9-Nov. a 13-Nov.)
 
-  * [Tema 06B - Bucles](Tema06Bsl.html)
-  * [Ejercicio del Tema 06B](EjercT06B.html)
+  * [Tema 08 - Funciones  y Bucles](./docs/Tema08.html)
+  * [Tema 08 - Ejercicio](./docs/Tema08_Ejerc.html)
   
-::: 
-
-::::
+</div>
+</div>
 
 <!-- ********************************************************************** 
 <div class = "row">
