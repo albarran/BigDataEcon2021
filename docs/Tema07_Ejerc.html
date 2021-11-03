@@ -234,26 +234,27 @@ ggplot(data = nac.limpio, aes(x = year, y = nacimientos)) +
 <li><p>Elegir un conjunto de datos de la web Gapminder, <a href="http://www.gapminder.org/data/">aquí</a>.</p></li>
 <li><p>Descargar los datos en formato .csv y leerlos en R.</p></li>
 </ul>
+<!--
+## Apartado a)
+
+* Explicar brevemente por qué estos datos no son datos ordenados
+-->
 <div id="apartado-a" class="section level2">
 <h2>Apartado a)</h2>
 <ul>
-<li>Explicar brevemente por qué estos datos no son datos ordenados</li>
+<li><p>Transformar el conjunto de datos a una tabla de datos ordenados con tres variables: país, año y valor de la variable que habéis elegido.</p></li>
+<li><p>Probablemente la variable de año tendrá tipo de carácter; usar <code>mutate()</code> y <code>parse_number()</code> para arreglarlo.</p></li>
 </ul>
 </div>
 <div id="apartado-b" class="section level2">
 <h2>Apartado b)</h2>
 <ul>
-<li><p>Transformar el conjunto de datos a una tabla de datos ordenados con tres variables: país, año y valor de la variable que habéis elegido.</p></li>
-<li><p>Probablemente la variable de año tendrá tipo de caracter; usar <code>mutate()</code> y <code>parse_number()</code> para arregarlo.</p></li>
+<li><p>Representar la evolución temporal de la variable con <code>ggplot</code>, usando el color para distinguir entre países. Elegid sólo cuatro para representarlos sin que el gráfico esté saturado.</p></li>
+<li><p>Explicar <em>brevemente</em> si preferís los datos originales o los ordenados para el gráfico.</p></li>
 </ul>
-</div>
-<div id="apartado-c" class="section level2">
-<h2>Apartado c)</h2>
-<ul>
-<li><p>Representar la evolución temporal de la variable con <code>ggplot</code>, usando el color para distinguir entre países. Elegid sólo cuatro para representarlos sin que el gráfico este saturado.</p></li>
-<li><p>Explicar si preferís los datos originales o los ordenados para el gráfico.</p></li>
-<li><p>Comentar <em>brevemente</em> vuestro gráfico.</p></li>
-</ul>
+<!--
+* Comentar *brevemente* vuestro gráfico.
+-->
 </div>
 <div id="entrega-del-ejercicio" class="section level2">
 <h2>Entrega del ejercicio</h2>
