@@ -189,30 +189,25 @@ ggplot( mtcars, aes(x=mpg)) + geom_histogram(fill="skyblue", alpha=0.5) + theme_
     - Fecha:  dom. 14-Nov. 22:00h
 
   * [Tema 08 - Funciones  y Bucles](./docs/Tema08.html)
-  * [Tema 08 - Ejercicio](./docs/Tema08_Ejerc.html)
-  
+  * [Tema 08 - Ejercicio](./docs/Tema08_Ejerc.html)  
 </div>
 </div>
 
-<!-- ********************************************************************** 
+<!-- ********************************************************************** -->
 <div class = "row">
 
 <div class = "col-md-4">
 <br><br> 
 
 ## Semana 10
-(16-Nov. a 20-Nov.)
+(15-Nov. a 19-Nov.)
 
-  * [Tema 07 - Fundamentos estadísticos](Tema07sl.html)
-  * [Ejercicio del Tema 07](EjercT07.html)
-      + Entrega ECO: 24-nov.
-      + Entrega ADE: 4-dic.
+  * [Tema 09 - Análisis Exploratorio de Datos](./docs/Tema09.html)
   
-::: 
+</div>
+</div>
 
-
-::: {}
-
+<!--
 ## Semana 11
 (23-Nov. a 27-Nov.)
 
