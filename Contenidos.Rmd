@@ -205,6 +205,7 @@ ggplot( mtcars, aes(x=mpg)) + geom_histogram(fill="skyblue", alpha=0.5) + theme_
   * [Tema 09 - Análisis Exploratorio de Datos](./docs/Tema09.html)
   * [Tema 09 - Ejercicio](./docs/Tema09_Ejerc.html)
     + Este ejercicio NO hay que entregarlo, solo está disponible a efectos ilustrativos.
+  * [Tema 10 - Fundamentos Estadísticos](./docs/Tema10.html)
   
 </div>
 </div>
