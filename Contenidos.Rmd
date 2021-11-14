@@ -203,6 +203,8 @@ ggplot( mtcars, aes(x=mpg)) + geom_histogram(fill="skyblue", alpha=0.5) + theme_
 (15-Nov. a 19-Nov.)
 
   * [Tema 09 - Análisis Exploratorio de Datos](./docs/Tema09.html)
+  * [Tema 09 - Ejercicio](./docs/Tema09_Ejerc.html)
+    + Este ejercicio NO hay que entregarlo, solo está disponible a efectos ilustrativos.
   
 </div>
 </div>
