@@ -206,6 +206,8 @@ ggplot( mtcars, aes(x=mpg)) + geom_histogram(fill="skyblue", alpha=0.5) + theme_
   * [Tema 09 - Ejercicio](./docs/Tema09_Ejerc.html)
     + Este ejercicio NO hay que entregarlo, solo está disponible a efectos ilustrativos.
   * [Tema 10 - Fundamentos Estadísticos](./docs/Tema10.html)
+  * [Tema 10 - Ejercicio](./docs/Tema10_Ejerc.html)
+
   
 </div>
 </div>

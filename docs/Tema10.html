@@ -389,8 +389,29 @@ Muestras_Final <- Muestras_porN %>% bind_rows()
 <pre class = 'prettyprint lang-r'>boot_df &lt;- 1:1000 %&gt;% map_dfr(~muestra %&gt;% slice_sample(n=25, replace = TRUE) %&gt;% 
                                 summarize(media=mean(x)))
 boot_df %&gt;% ggplot(aes(x = media)) + geom_density()  # densidad bootstrap de la media
-sd(boot_df$media)                                    # estimación bootstrap del error estándar
+sd(boot_df$media)                                    # estimación del error estándar
 c(sort(boot_df$media)[25], sort(boot_df$media)[975]) # Intervalo de confianza al 95%</pre>
+
+</article></slide><slide class=""><hgroup><h2>Procedimiento <em>Bootstrap</em> (cont.)</h2></hgroup><article  id="procedimiento-bootstrap-cont.">
+
+<pre class = 'prettyprint lang-r'>set.seed(101)
+boot_df &lt;- list()
+for (i in 1:1000) {
+  data1 &lt;- muestra %&gt;% slice_sample(n=25, replace = TRUE) 
+  m &lt;- mean(data1$x)
+  s &lt;- sd(data1$x)
+  boot_df[[i]] &lt;-  list(media = m, sd = s)
+}
+boot_df %&gt;% bind_rows() %&gt;% ggplot(aes(x = media)) + geom_density()  
+
+set.seed(101)
+mis_estads &lt;- function(n) {
+  data1 &lt;- muestra %&gt;% slice_sample(n=n, replace = TRUE) 
+  sol &lt;- list(media = mean(data1$x), sd = sd(data1$x))
+  return(sol)
+}
+boot_df &lt;- 1:1000 %&gt;% map_dfr(~mis_estads(25))
+boot_df %&gt;% bind_rows() %&gt;% ggplot(aes(x = media)) + geom_density()</pre>
 
 <!--
 ## *Bootstrap* con $B = 1000$ para `datos1` 
@@ -603,7 +624,7 @@ lm(data=nsw2 %>%  filter(black==1), re78 ~ treat + rePre) %>% broom::tidy()
 
 <pre class = 'prettyprint lang-r'>datos %&gt;% ggplot(aes(x=discount, y=sales)) + geom_point() + geom_smooth(method = &quot;lm&quot;)</pre>
 
-<pre class = 'prettyprint lang-r'>lm(data = datos, sales ~ discount) %&gt;% broom::tidy()</pre>
+<pre class = 'prettyprint lang-r'>lm(data = datos, sales ~ discount) %&gt;% summary()</pre>
 
 <ul>
 <li>Pero si tenemos en cuenta la renta…</li>
@@ -613,7 +634,7 @@ lm(data=nsw2 %>%  filter(black==1), re78 ~ treat + rePre) %>% broom::tidy()
   ggplot(aes(x=discount, y=sales)) + geom_point() + geom_smooth(method = &quot;lm&quot;) +
   facet_wrap(~renta_baja)</pre>
 
-<pre class = 'prettyprint lang-r'>lm(data = datos, sales ~ discount + income) %&gt;% broom::tidy()</pre>
+<pre class = 'prettyprint lang-r'>lm(data = datos, sales ~ discount + income) %&gt;% summary()</pre>
 
 </article></slide><slide class=""><hgroup><h2>Regresión Lineal</h2></hgroup><article  id="regresión-lineal">
 
@@ -702,13 +723,16 @@ Y=\beta_0+\beta_1 X_1+ \dots + \beta_k X_k + \varepsilon
 <li>RMSE o variantes como el error estandar de la regresión, \(\small \sqrt{\frac{SCR}{n-k-1}}\): son medidas absolutas en las mismas unidades que \(Y\)</li>
 <li>\(\small R^2=1-\frac{SCR}{SCT} = \frac{SCE}{SCT}\) es una medida relativa: proporción de la varianza explicada por el modelo</li>
 </ul></li>
-<li><p>Las predicción \(\widehat{y}\) también están sujetas a incertidumbre por la estimación</p>
+<li><p>La predicción \(\widehat{y}\) también están sujetas a incertidumbre por la estimación</p>
 
 <ul>
 <li>Existen formulas para calcular su error estándar (a partir de la matriz de varianza y covarianza de los coeficientes estimados)</li>
 <li>Por tanto, también se puede calcular un intervalo de confianza</li>
 </ul></li>
 </ul>
+
+<pre class = 'prettyprint lang-r'>res &lt;- lm(data = datos, sales ~ discount + income)
+cbind(datos$sales, res$fitted.values) %&gt;% head()</pre>
 
 </article></slide><slide class=""><hgroup><h2>Regresión Lineal: superando la linealidad</h2></hgroup><article  id="regresión-lineal-superando-la-linealidad">
 
