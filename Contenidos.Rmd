@@ -205,25 +205,25 @@ ggplot( mtcars, aes(x=mpg)) + geom_histogram(fill="skyblue", alpha=0.5) + theme_
   * [Tema 09 - Análisis Exploratorio de Datos](./docs/Tema09.html)
   * [Tema 09 - Ejercicio](./docs/Tema09_Ejerc.html)
     + Este ejercicio NO hay que entregarlo, solo está disponible a efectos ilustrativos.
-  * [Tema 10 - Fundamentos Estadísticos](./docs/Tema10.html)
-  * [Tema 10 - Ejercicio](./docs/Tema10_Ejerc.html)
 
   
+</div>
+
+<div class = "col-md-4">
+<br><br> 
+
+## Semana 11
+(22-Nov. a 26-Nov.)
+
+  * [Tema 10 - Fundamentos Estadísticos](./docs/Tema10.html)
+  * [Tema 10 - Ejercicio](./docs/Tema10_Ejerc.html)
+  * [Tema 11 - Aprendizaje Estadístico](./docs/Tema11.html)
+
+
 </div>
 </div>
 
 <!--
-## Semana 11
-(23-Nov. a 27-Nov.)
-
-  * [Tema 08 - Aprendizaje estadístico](Tema08sl.html)
-  
-  * [Tema 09 - Regresión Lineal](Tema09sl.html)
-
-::: 
-
-
-::: {}
 
 ## Semana 12
 (30-Nov. a 04-Dic.)
