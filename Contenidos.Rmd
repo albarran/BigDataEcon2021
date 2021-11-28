@@ -221,22 +221,17 @@ ggplot( mtcars, aes(x=mpg)) + geom_histogram(fill="skyblue", alpha=0.5) + theme_
 
 
 </div>
-</div>
 
-<!--
+<div class = "col-md-4">
+<br><br> 
 
 ## Semana 12
-(30-Nov. a 04-Dic.)
+(29-Nov. a 03-Dic.)
 
-  * [Tema 10 - Regresión Logística](Tema10sl.html)
-  * [Tema 11 - Selección y regularización](Tema11sl.html)
+  * [Tema 12 - Selección y regularización](./docs/Tema12.html)
 
-  * [Practica 05A - Proceso de Modelización"](Pract05A.html) 
-
-
-::: 
-
-::::
+</div>
+</div>
 
 
 <!-- ********************************************************************** 
