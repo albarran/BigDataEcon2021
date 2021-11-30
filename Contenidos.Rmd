@@ -229,6 +229,8 @@ ggplot( mtcars, aes(x=mpg)) + geom_histogram(fill="skyblue", alpha=0.5) + theme_
 (29-Nov. a 03-Dic.)
 
   * [Tema 12 - Selección y regularización](./docs/Tema12.html)
+  
+  * [Ejemplo de Proyecto Final](./docs/Proyect01.html)
 
 </div>
 </div>
