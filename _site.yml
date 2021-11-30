@@ -11,12 +11,15 @@ navbar:
   left:
     - text: "Índice"
       href: index.html
-    - text: "Evaluación"
-      href: Evaluacion.html
     - text: "Datos"
       href: Datos.html
     - text: "Contenidos"
       href: Contenidos.html
+    - text: "Evaluación"
+      href: Evaluacion.html
+    - text: "Proyecto Final"
+      href: ProyectoFinal.html
+      
 #    - text: "Otro con submenus"
 #      menu:
 #        - text: "Create a Project"
