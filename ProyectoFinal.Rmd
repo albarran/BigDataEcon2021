@@ -1,5 +1,5 @@
 ---
-title: "Evaluación"
+title: "Proyecto Final"
 output: html_document
 ---
 
@@ -28,42 +28,6 @@ output:
 #      slide_level: 2
 #widescreen: yes
 ---
-
-
-```{r setup, include=FALSE}
-#```{r setup, message=FALSE, warning=FALSE, include=FALSE} 
-# include=F es suficiente para no incluir mensajes, etc.
-
-# Opciones por defecto para los fragmentos de código
-knitr::opts_chunk$set(eval = TRUE, echo = TRUE, 
-                      warning = FALSE, message = FALSE,
-                      results = "hide", fig.show="hide")
-# se muestra y evalúa el código,
-# no se muestran mensajes, ni avisos (warnings)
-# no se muestran los resultados de código (tampoco gráficos)
-#     en los códigos que considere necesarios los mostraré
-
-# Elimino todo del Entorno (del documento)
-rm(list = ls())       
-
-# Cargo todas las bibliotecas necesarias
-# (se podría hacer cuando cada una sea necesaria)
-library(tidyverse)
-# library(tidymodels)
-# library(printr)
-# library(skimr)
-# library(dlookr)
-# library(broom)
-library(kableExtra)
-# library(rpart.plot)
-# library(vip)
-
-#fijo el directorio de trabajo
-#setwd("/home/albarran/Dropbox/MAD/00.TEC")
-library(rmarkdown)
-#render("filename.Rmd")     
-#browseURL("filename.html")
-```
 -->
 
 <!--
