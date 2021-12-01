@@ -231,6 +231,8 @@ ggplot( mtcars, aes(x=mpg)) + geom_histogram(fill="skyblue", alpha=0.5) + theme_
   * [Tema 12 - Selección y regularización](./docs/Tema12.html)
   
   * [Ejemplo de Proyecto Final](./docs/Proyect01.html)
+  
+  * [Tema 13 - Modelización con `tidymodels`](./docs/Tema13.html)
 
 </div>
 </div>
