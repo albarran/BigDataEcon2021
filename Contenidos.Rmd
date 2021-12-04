@@ -232,13 +232,11 @@ ggplot( mtcars, aes(x=mpg)) + geom_histogram(fill="skyblue", alpha=0.5) + theme_
   
   * [Ejemplo de Proyecto Final](./docs/Proyect01.html)
   
-  * [Tema 13 - Modelización con `tidymodels`](./docs/Tema13.html)
 
 </div>
 </div>
 
-
-<!-- ********************************************************************** 
+<!-- ********************************************************************** -->
 <div class = "row">
 
 <div class = "col-md-4">
@@ -247,36 +245,32 @@ ggplot( mtcars, aes(x=mpg)) + geom_histogram(fill="skyblue", alpha=0.5) + theme_
 ## Semana 13
 (07-Dic. a 11-Dic.)
 
-  * [Practica 05B - "Tidymodels"](Pract05B.html) 
 
-::: 
+</div>
 
-
-::: {}
+<div class = "col-md-4">
+<br><br> 
 
 ## Semana 14
-(14-Dic. a 18-Dic.)
+(13-Dic. a 17-Dic.)
 
-  * [Tema 12 - kNN](Tema12sl.html)
-  * [Tema 13 - Métodos de árboles](Tema13sl.html)
+  * [Tema 13 - Modelización con `tidymodels`](./docs/Tema13.html)
 
-  * [Tema 14 - Apendizaje no supervisado](Tema14sl.html)
+  * [Tema 14 - kNN](./docs/Tema14.html)
 
+</div>
 
-
-::: 
-
-
-::: {}
+<div class = "col-md-4">
+<br><br> 
 
 ## Semana 15
-(21-Dic. a 23-Dic.)
+(20-Dic. a 23-Dic.)
 
-  * [Ejemplo de Trabajo](Proyect01.html)
+  * [Tema 15 - Métodos de árboles](./docs/Tema15.html)
 
+  * [Tema 16 - Apendizaje no supervisado](./docs/Tema16.html)
 
-::: 
+  * [Ejemplo de Aprendizaje no supervisado](./docs/Proyect02.html)
 
-::::
-
--->
+</div>
+</div>
