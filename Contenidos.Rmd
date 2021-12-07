@@ -272,5 +272,7 @@ ggplot( mtcars, aes(x=mpg)) + geom_histogram(fill="skyblue", alpha=0.5) + theme_
 
   * [Ejemplo de Aprendizaje no supervisado](./docs/Proyect02.html)
 
+  * [Tema 18 - Análisis de texto](./docs/Tema18.html)
+  
 </div>
 </div>
